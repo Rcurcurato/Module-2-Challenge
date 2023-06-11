@@ -1,0 +1,311 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkcyan;
+    color: rgb(222, 79, 79);
+    padding: 20px 20px
+}
+
+/*beginning of header styling*/
+
+header {
+    background-color: darkgray;
+    border: solid rgb(222, 79, 79);
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.my-name {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+/*end of header styling*/
+
+/*beginning of nav bar styling*/
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 150px;
+}
+
+.nav-bar li {
+    display: flex;
+    padding: 20px 20px;
+    list-style: none;
+    font-size: 30px;
+
+
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+/*end of nav bar styling*/
+/*beginning of hero styling*/
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hero h2 {
+position: relative;
+left: 400px;
+top: 100px;
+font-size: 100px;
+
+}
+
+.hero img {
+position: relative;
+top: 100px;
+left: 200px;
+    height: 300px;
+    width: 300px;
+
+}
+
+/*end of hero styling*/
+/*beginning of about me styling*/
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 150px;
+    padding: 20px;
+    justify-content: flex-start;
+
+
+}
+
+.about-me h2 {
+
+    position: relative;
+    padding: 20px;
+    font-size: 90px;
+    border: solid 5px;
+    background-color: darkgray;
+
+
+}
+
+.about-me p{
+  font-size: 30px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+
+}
+
+/*end of about me styling*/
+/*beginning of main section styling*/
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 310px;
+
+}
+
+.work h2 {
+    position: relative;
+    left: 50px;
+    padding: 20px;
+    top: 100px;
+    border: solid 5px;
+    font-size: 90px;
+    background-color: darkgray;
+
+}
+
+/*main project styling*/
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-project img {
+
+    width: 1000px;
+    height: 600px;
+    border: solid rgb(222, 79, 79);
+    position: relative;
+    bottom: 315px;
+    left: 60px;
+
+}
+
+.surf-report img:hover {
+    opacity: 50%;
+
+}
+
+.surf-report p {
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    width: fit-content;
+    font-size: 40px;
+    top: 300px;
+    left: 100px;
+    border: solid rgb(222, 79, 79);
+}
+
+/*end of main project styling*/
+
+.mini-projects {
+    height: 500px;
+    position: relative;
+    right: 250px;
+    bottom: 500px
+}
+
+/*beginning of mini projects styling*/
+
+.mini-projects img {
+    width: 500px;
+    height: 350px;
+    border: solid rgb(222, 79, 79);
+
+
+}
+
+.led-wall img {
+    position: relative;
+    left: 724px;
+    bottom: 300px;
+}
+
+.caption1 {
+    position: relative;
+    font-size: 30px;
+    background-color: white;
+    border: solid rgb(222, 79, 79);
+    width: fit-content;
+    z-index: 10;
+    left: 500px;
+    bottom: 75px
+}
+
+
+.calculator img {
+    position: relative;
+    left: 1250px;
+    bottom: 658px;
+}
+
+.caption2 {
+
+    position: relative;
+    font-size: 30px;
+    background-color: white;
+    border: solid rgb(222, 79, 79);
+    width: fit-content;
+    z-index: 10;
+    left: 1020px;
+    bottom: 170px
+}
+
+
+.pastel-puzzles img {
+    position: relative;
+    left: 724px;
+    bottom: 650px
+}
+
+.caption3 {
+
+    position: relative;
+    font-size: 30px;
+    background-color: white;
+    border: solid rgb(222, 79, 79);
+    width: fit-content;
+    z-index: 10;
+    left: 500px;
+    top: 100px;
+}
+
+.run-buddy img {
+    position: relative;
+    left: 1250px;
+    bottom: 1006px;
+
+}
+
+.caption4 {
+
+    position: relative;
+    font-size: 30px;
+    background-color: white;
+    border: solid rgb(222, 79, 79);
+    width: fit-content;
+    z-index: 10;
+    left: 1020px;
+}
+
+.mini-projects img:hover {
+    opacity: 50%;
+}
+/*end of mini projects styling*/
+/*end of main section styling*/
+/*beginning of footer styling*/
+
+.footer {
+    height: fit-content;
+    border: solid 5px;
+    background-color: darkgray;
+
+
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+
+
+.nav-bar-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.nav-bar-footer li {
+    display: flex;
+    padding: 20px 20px;
+    list-style: none;
+    font-size: 30px;
+
+}
+
+/*end of footer styling*/
+
+@media screen and (max-width: 480px){}
+
+
+
+@media screen and (max-width: 768px)
+
+{body{background-color: white;}}
+
+
+@media screen and (max-width: 1024px){}
