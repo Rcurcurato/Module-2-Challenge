@@ -21,11 +21,22 @@ body {
 .about-me p {
     margin-bottom: 20px;
 }
-.work h1{
+
+.work h1 {
     text-align: center;
 }
+
 .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col img {
     border: solid black;
-    padding: 10%;
-    margin: 10px;
+    width: 350px;
+    height: 300px;
+}
+.container h1{
+    text-align: center;
 }
