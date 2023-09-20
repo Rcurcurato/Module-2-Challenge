@@ -1,15 +1,15 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: darkcyan;
-    color: rgb(222, 79, 79);
-    padding: 20px 20px
+    background-image: linear-gradient(to bottom right, blue, white);
+    color: black;
+    padding: 20px 20px;
+    width: 100%;
 }
 
 /*beginning of header styling*/
 
 header {
-    background-color: darkgray;
-    border: solid rgb(222, 79, 79);
+    border: solid black;
     margin-bottom: 10px;
     height: 200px;
 }
@@ -56,17 +56,17 @@ header {
 
 
 .hero h2 {
-position: relative;
-left: 400px;
-top: 100px;
-font-size: 100px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    font-size: 100px;
 
 }
 
 .hero img {
-position: relative;
-top: 100px;
-left: 200px;
+    position: relative;
+    top: 100px;
+    left: 200px;
     height: 300px;
     width: 300px;
 
@@ -92,16 +92,15 @@ left: 200px;
     padding: 20px;
     font-size: 90px;
     border: solid 5px;
-    background-color: darkgray;
 
 
 }
 
-.about-me p{
-  font-size: 30px;
-  position: relative;
-  left: 100px;
-  top: 100px;
+.about-me p {
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    top: 100px;
 
 }
 
@@ -123,7 +122,7 @@ left: 200px;
     top: 100px;
     border: solid 5px;
     font-size: 90px;
-    background-color: darkgray;
+
 
 }
 
@@ -140,9 +139,9 @@ left: 200px;
 
 .main-project img {
 
-    width: 1000px;
-    height: 600px;
-    border: solid rgb(222, 79, 79);
+    width: 400px;
+    height: 350px;
+    border: black;
     position: relative;
     bottom: 315px;
     left: 60px;
@@ -162,7 +161,7 @@ left: 200px;
     font-size: 40px;
     top: 300px;
     left: 100px;
-    border: solid rgb(222, 79, 79);
+    border: solid black;
 }
 
 /*end of main project styling*/
@@ -174,100 +173,14 @@ left: 200px;
     bottom: 500px
 }
 
-/*beginning of mini projects styling*/
-
-.mini-projects img {
-    width: 500px;
-    height: 350px;
-    border: solid rgb(222, 79, 79);
-
-
-}
-
-.led-wall img {
-    position: relative;
-    left: 724px;
-    bottom: 300px;
-}
-
-.caption1 {
-    position: relative;
-    font-size: 30px;
-    background-color: white;
-    border: solid rgb(222, 79, 79);
-    width: fit-content;
-    z-index: 10;
-    left: 500px;
-    bottom: 75px
-}
-
-
-.calculator img {
-    position: relative;
-    left: 1250px;
-    bottom: 658px;
-}
-
-.caption2 {
-
-    position: relative;
-    font-size: 30px;
-    background-color: white;
-    border: solid rgb(222, 79, 79);
-    width: fit-content;
-    z-index: 10;
-    left: 1020px;
-    bottom: 170px
-}
-
-
-.pastel-puzzles img {
-    position: relative;
-    left: 724px;
-    bottom: 650px
-}
-
-.caption3 {
-
-    position: relative;
-    font-size: 30px;
-    background-color: white;
-    border: solid rgb(222, 79, 79);
-    width: fit-content;
-    z-index: 10;
-    left: 500px;
-    top: 100px;
-}
-
-.run-buddy img {
-    position: relative;
-    left: 1250px;
-    bottom: 1006px;
-
-}
-
-.caption4 {
-
-    position: relative;
-    font-size: 30px;
-    background-color: white;
-    border: solid rgb(222, 79, 79);
-    width: fit-content;
-    z-index: 10;
-    left: 1020px;
-}
-
-.mini-projects img:hover {
-    opacity: 50%;
-}
-/*end of mini projects styling*/
 /*end of main section styling*/
+
 /*beginning of footer styling*/
 
 .footer {
     height: fit-content;
     border: solid 5px;
-    background-color: darkgray;
+
 
 
 }
@@ -299,13 +212,15 @@ left: 200px;
 
 /*end of footer styling*/
 
-@media screen and (max-width: 480px){}
+@media screen and (max-width: 480px) {}
 
 
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+}
 
-{body{background-color: white;}}
 
-
-@media screen and (max-width: 1024px){}
+@media screen and (max-width: 1024px) {}
